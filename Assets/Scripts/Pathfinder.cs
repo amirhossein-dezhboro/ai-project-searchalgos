@@ -257,21 +257,20 @@ public class Pathfinder : MonoBehaviour
         }
     }
 
-	void ExpandFrontierGreedyBestFirst(Node node)
+    void ExpandFrontierGreedyBestFirst(Node node)
+    {
+        if (node != null)
 	{
-		if (node != null)
+	    for (int i = 0; i < node.neighbors.Count; i++)
+	    {
+		if (!m_exploredNodes.Contains(node.neighbors[i])
+		    && !m_frontierNodes.Contains(node.neighbors[i]))
 		{
-			for (int i = 0; i < node.neighbors.Count; i++)
-			{
-				if (!m_exploredNodes.Contains(node.neighbors[i])
-					&& !m_frontierNodes.Contains(node.neighbors[i]))
-				{
-					float distanceToNeighbor = m_graph.GetNodeDistance(node, node.neighbors[i]);
-					float newDistanceTraveled = distanceToNeighbor + node.distanceTraveled
-																		 + (int)node.nodeType;
-					node.neighbors[i].distanceTraveled = newDistanceTraveled;
-
-					node.neighbors[i].previous = node;
+		    float distanceToNeighbor = m_graph.GetNodeDistance(node, node.neighbors[i]);
+		    float newDistanceTraveled = distanceToNeighbor + node.distanceTraveled
+									 + (int)node.nodeType;
+		    node.neighbors[i].distanceTraveled = newDistanceTraveled;
+		    node.neighbors[i].previous = node;
                     if (m_graph != null)
                     {
                         node.neighbors[i].priority = (int)m_graph.GetNodeDistance(
@@ -279,42 +278,42 @@ public class Pathfinder : MonoBehaviour
                     }
 					
 
-					m_frontierNodes.Enqueue(node.neighbors[i]);
-				}
-			}
+		    m_frontierNodes.Enqueue(node.neighbors[i]);
 		}
+	    }
 	}
+    }
 
-	void ExpandFrontierAStar(Node node)
+    void ExpandFrontierAStar(Node node)
+    {
+	if (node != null)
 	{
-		if (node != null)
+	    for (int i = 0; i < node.neighbors.Count; i++)
+	    {
+		if (!m_exploredNodes.Contains(node.neighbors[i]))
 		{
-			for (int i = 0; i < node.neighbors.Count; i++)
-			{
-				if (!m_exploredNodes.Contains(node.neighbors[i]))
-				{
-					float distanceToNeighbor = m_graph.GetNodeDistance(node, node.neighbors[i]);
-					float newDistanceTraveled = distanceToNeighbor + node.distanceTraveled
-																		 + (int)node.nodeType;
+		    float distanceToNeighbor = m_graph.GetNodeDistance(node, node.neighbors[i]);
+		    float newDistanceTraveled = distanceToNeighbor + node.distanceTraveled
+									+ (int)node.nodeType;
 
-					if (float.IsPositiveInfinity(node.neighbors[i].distanceTraveled) ||
-						newDistanceTraveled < node.neighbors[i].distanceTraveled)
-					{
-						node.neighbors[i].previous = node;
-						node.neighbors[i].distanceTraveled = newDistanceTraveled;
-					}
+		     if (float.IsPositiveInfinity(node.neighbors[i].distanceTraveled) ||
+			newDistanceTraveled < node.neighbors[i].distanceTraveled)
+		    {
+			node.neighbors[i].previous = node;
+			node.neighbors[i].distanceTraveled = newDistanceTraveled;
+		    }
 
                     if (!m_frontierNodes.Contains(node.neighbors[i]) && m_graph != null)
-					{
+		    {
                         int distanceToGoal = (int)m_graph.GetNodeDistance(node.neighbors[i], m_goalNode);
                         node.neighbors[i].priority = (int)node.neighbors[i].distanceTraveled 
                             + distanceToGoal;
-						m_frontierNodes.Enqueue(node.neighbors[i]);
-					}
-				}
-			}
+			m_frontierNodes.Enqueue(node.neighbors[i]);
+		    }
 		}
+	    }
 	}
+    }
     List<Node> GetPathNodes(Node endNode)
     {
         List<Node> path = new List<Node>();
