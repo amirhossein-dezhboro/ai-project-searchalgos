@@ -1,6 +1,7 @@
 # AI-Project-SearchAlgos
-
-#Getting Started
+Hey... 
+This repository have been created for those who are curious about how search algorithms work!
+# Getting Started
 repository is a whole Unity Project so that contains many assets.
 All the codes are stored in "/assets/scripts" folder.
 For the sake of easiness I have seperated the algorithms from "Pathfinder" class and attached them in README file.
