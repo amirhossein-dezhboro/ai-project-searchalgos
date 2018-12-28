@@ -140,6 +140,19 @@ void ExpandFrontierAStar(Node node)
 	}
     }
 ```
+## Deployment
+
+[Unity game engine](https://unity3d.com/get-unity/download) has to be installed on the device and the whole repository has to be added as a new project.
+
+
+## Built With
+
+* [Unity game engine](https://unity3d.com/get-unity/download) - The game engine
+* [photoshop](https://www.adobe.com/se/products/photoshop.html?gclid=EAIaIQobChMImM-miafD3wIVFKaaCh3r9gboEAAYASAAEgJEwvD_BwE&sdid=8JD95K3M&mv=search&ef_id=EAIaIQobChMImM-miafD3wIVFKaaCh3r9gboEAAYASAAEgJEwvD_BwE:G:s&s_kwcid=AL!3085!3!281083711561!e!!g!!adobe%20photoshop) - Map Generation
+* [Microsoft Visual Studio](https://visualstudio.microsoft.com/) - Used as IDE instead of [monodevelop](https://www.monodevelop.com/) with all respect :D
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 ## Authors
 
 * **Amir Hossein Dezhbro** - *Initial work* - [tan-ParallelUniverse](https://github.com/tan-ParallelUniverse)
