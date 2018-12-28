@@ -12,14 +12,14 @@ Well,
 Inside the "scrips" folder there are several classes :
 
 - Scripts
-  - [] DemoController.cs
-  - [] Graph.cs
-  - [] GraphView.cs
-  - [] MapData.cs
-  - [] Node.cs
-  - [] NodeView.cs
+  - [ ] DemoController.cs
+  - [ ] Graph.cs
+  - [ ] GraphView.cs
+  - [ ] MapData.cs
+  - [ ] Node.cs
+  - [ ] NodeView.cs
   - [x] Pathfinder.cs
-  - [] PriorityQueue.cs
+  - [ ] PriorityQueue.cs
 	
 ## BFS Algorithm : Class ExpandFrontierBreadthFirst
 ```
@@ -107,7 +107,7 @@ void ExpandFrontierGreedyBestFirst(Node node)
 	}
     }
 ```
-## AStar Algorithm : Class ExpandFrontierAStar
+## A* Algorithm : Class ExpandFrontierAStar
 ```
 void ExpandFrontierAStar(Node node)
     {
