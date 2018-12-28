@@ -20,6 +20,8 @@ Inside the "scrips" folder there are several classes :
   - [ ] NodeView.cs
   - [x] Pathfinder.cs
   - [ ] PriorityQueue.cs
+  
+  BUT for now, the documentation aims to focus on algorithmes and less dedicate efforts to other aspects like how we model the graph or how we create map and connect nodes in map as we connect nodes in graph and tadadada ... 
 	
 ## BFS Algorithm : Class ExpandFrontierBreadthFirst
 ```
