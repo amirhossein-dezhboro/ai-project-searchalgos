@@ -66,20 +66,19 @@ void ExpandFrontierDijkstra(Node node)
 ## GreedyBFS Algorithm : Class ExpandFrontierGreedyBestFirst
 ```
 void ExpandFrontierGreedyBestFirst(Node node)
+    {
+        if (node != null)
 	{
-		if (node != null)
+	    for (int i = 0; i < node.neighbors.Count; i++)
+	    {
+		if (!m_exploredNodes.Contains(node.neighbors[i])
+		    && !m_frontierNodes.Contains(node.neighbors[i]))
 		{
-			for (int i = 0; i < node.neighbors.Count; i++)
-			{
-				if (!m_exploredNodes.Contains(node.neighbors[i])
-					&& !m_frontierNodes.Contains(node.neighbors[i]))
-				{
-					float distanceToNeighbor = m_graph.GetNodeDistance(node, node.neighbors[i]);
-					float newDistanceTraveled = distanceToNeighbor + node.distanceTraveled
-																		 + (int)node.nodeType;
-					node.neighbors[i].distanceTraveled = newDistanceTraveled;
-
-					node.neighbors[i].previous = node;
+		    float distanceToNeighbor = m_graph.GetNodeDistance(node, node.neighbors[i]);
+		    float newDistanceTraveled = distanceToNeighbor + node.distanceTraveled
+									 + (int)node.nodeType;
+		    node.neighbors[i].distanceTraveled = newDistanceTraveled;
+		    node.neighbors[i].previous = node;
                     if (m_graph != null)
                     {
                         node.neighbors[i].priority = (int)m_graph.GetNodeDistance(
@@ -87,42 +86,42 @@ void ExpandFrontierGreedyBestFirst(Node node)
                     }
 					
 
-					m_frontierNodes.Enqueue(node.neighbors[i]);
-				}
-			}
+		    m_frontierNodes.Enqueue(node.neighbors[i]);
 		}
+	    }
 	}
+    }
 ```
 ## AStar Algorithm : Class ExpandFrontierAStar
 ```
 void ExpandFrontierAStar(Node node)
+    {
+	if (node != null)
 	{
-		if (node != null)
+	    for (int i = 0; i < node.neighbors.Count; i++)
+	    {
+		if (!m_exploredNodes.Contains(node.neighbors[i]))
 		{
-			for (int i = 0; i < node.neighbors.Count; i++)
-			{
-				if (!m_exploredNodes.Contains(node.neighbors[i]))
-				{
-					float distanceToNeighbor = m_graph.GetNodeDistance(node, node.neighbors[i]);
-					float newDistanceTraveled = distanceToNeighbor + node.distanceTraveled
-																		 + (int)node.nodeType;
+		    float distanceToNeighbor = m_graph.GetNodeDistance(node, node.neighbors[i]);
+		    float newDistanceTraveled = distanceToNeighbor + node.distanceTraveled
+									+ (int)node.nodeType;
 
-					if (float.IsPositiveInfinity(node.neighbors[i].distanceTraveled) ||
-						newDistanceTraveled < node.neighbors[i].distanceTraveled)
-					{
-						node.neighbors[i].previous = node;
-						node.neighbors[i].distanceTraveled = newDistanceTraveled;
-					}
+		     if (float.IsPositiveInfinity(node.neighbors[i].distanceTraveled) ||
+			newDistanceTraveled < node.neighbors[i].distanceTraveled)
+		    {
+			node.neighbors[i].previous = node;
+			node.neighbors[i].distanceTraveled = newDistanceTraveled;
+		    }
 
                     if (!m_frontierNodes.Contains(node.neighbors[i]) && m_graph != null)
-					{
+		    {
                         int distanceToGoal = (int)m_graph.GetNodeDistance(node.neighbors[i], m_goalNode);
                         node.neighbors[i].priority = (int)node.neighbors[i].distanceTraveled 
                             + distanceToGoal;
-						m_frontierNodes.Enqueue(node.neighbors[i]);
-					}
-				}
-			}
+			m_frontierNodes.Enqueue(node.neighbors[i]);
+		    }
 		}
+	    }
 	}
+    }
 ```
