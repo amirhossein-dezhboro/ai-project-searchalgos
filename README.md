@@ -9,8 +9,18 @@ The whole Project is based on object oriented programming concept so following t
 # Stucture of scripts
 Well, 
 
+Inside the "scrips" folder there are several classes :
 
-Inside the "scrip" folder  
+	- Scripts
+	  - DemoController.cs
+	  - Graph.cs
+	  - GraphView.cs
+	  - MapData.cs
+	  - Node.cs
+	  - NodeView.cs
+	  - Pathfinder.cs
+	  - PriorityQueue.cs
+	
 ## BFS Algorithm : Class ExpandFrontierBreadthFirst
 ```
 void ExpandFrontierBreadthFirst(Node node)
