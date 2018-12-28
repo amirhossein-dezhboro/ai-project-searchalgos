@@ -163,4 +163,4 @@ See also the list of [contributors](https://github.com/tan-ParallelUniverse/ai-p
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 ## Acknowledgments
-* the credit of this project (if there is a credit :D) goes to the ai class under supervision of prof.ghazanfari and dr.ghiasi.
+* the credit of this project (if there is any credit :D) goes to the ai class under supervision of prof.ghazanfari and dr.ghiasi.
