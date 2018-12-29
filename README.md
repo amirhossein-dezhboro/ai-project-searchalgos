@@ -4,7 +4,7 @@ This repository have been created for those who are curious about how search alg
 
 * the executable application for windows, linux, macintosh, android and ios will be ready soon and will be shared here.
 
-####some features the complete application will contain:
+#### some features the complete application will contain:
 ```
 * user can choose the search algorithm and map for visualizing search algorithms
 for better understanding of updating loops and time order of each algorithm.
