@@ -1,6 +1,8 @@
 # AI-Project-SearchAlgos
 Hey... 
 This repository have been created for those who are curious about how search algorithms work!
+
+* the executable application for windows, linux, macintosh, android and ios will be ready soon and will be shared here.
 # Getting Started
 repository is a whole Unity Project so that contains many assets.
 All the codes are stored in "/assets/scripts" folder.
@@ -164,3 +166,5 @@ See also the list of [contributors](https://github.com/tan-ParallelUniverse/ai-p
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 ## Acknowledgments
 * the credit of this project (if there is any credit :D) goes to the ai class under supervision of prof.ghazanfari and dr.ghiasi.
+* the executable application for windows, linux, macintosh, android and ios will be ready soon and will be shared here.
+* feel free to pull request im open to new ideas and contributions
