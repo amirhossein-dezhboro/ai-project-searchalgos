@@ -3,6 +3,7 @@ Hey...
 This repository have been created for those who are curious about how search algorithms work!
 
 * the executable application for windows, linux, macintosh, android and ios will be ready soon and will be shared here.
+* the webpage for project is [here](https://tan-paralleluniverse.github.io/ai-project-searchalgos/)
 
 #### some features of the complete application will contain:
 ```
