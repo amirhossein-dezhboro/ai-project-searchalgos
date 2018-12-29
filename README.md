@@ -181,4 +181,5 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 ## Acknowledgments
 * the credit of this project (if there is any credit :D) goes to the ai class under supervision of prof.ghazanfari and dr.ghiasi.
 * the executable application for windows, linux, macintosh, android and ios will be ready soon and will be shared here.
-* feel free to pull request im open to new ideas and contributions.
+* feel free to contact for contribution, im open to new ideas and contributions.
+
