@@ -171,7 +171,7 @@ void ExpandFrontierAStar(Node node)
 * [Microsoft Visual Studio](https://visualstudio.microsoft.com/) - Used as IDE instead of [monodevelop](https://www.monodevelop.com/) with all respect :D
 ## Versioning
 
-We use [Git](https://git-scm.com/downloads) for versioning. For the versions available, see the [tags on this repository](https://github.com/ai-project-searchalgos/ai-project-searchalgos/tags). 
+I use [Git](https://git-scm.com/downloads) for versioning. For the versions available, see the [tags on this repository](https://github.com/ai-project-searchalgos/ai-project-searchalgos/tags). 
 ## Authors
 
 * **Amir Hossein Dezhbro** - *Initial work* - [tan-ParallelUniverse](https://github.com/tan-ParallelUniverse)
