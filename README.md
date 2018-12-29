@@ -9,6 +9,9 @@ This repository have been created for those who are curious about how search alg
 * user can choose the search algorithm and map for visualizing search algorithms
 for better understanding of updating loops and time order of each algorithm.
 
+* there is 7 maps right now inside the existing project that can be accessed from
+asset folder and they will be default maps inside the completed application.
+
 * user can draw arbitrary maps in photoshop and each pixel will be interpreted
 as a node in graph.
 
