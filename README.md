@@ -165,7 +165,7 @@ void ExpandFrontierAStar(Node node)
 
 ## Built With
 
-* [Unity game engine](https://unity3d.com/get-unity/download) - The game engine VERSION 2018 1.6F1.1
+* [Unity game engine](https://unity3d.com/get-unity/download) - The game engine VERSION 2018.1.6F1
 * [photoshop](https://www.adobe.com/se/products/photoshop.html?gclid=EAIaIQobChMImM-miafD3wIVFKaaCh3r9gboEAAYASAAEgJEwvD_BwE&sdid=8JD95K3M&mv=search&ef_id=EAIaIQobChMImM-miafD3wIVFKaaCh3r9gboEAAYASAAEgJEwvD_BwE:G:s&s_kwcid=AL!3085!3!281083711561!e!!g!!adobe%20photoshop) - Map Generation
 * [Microsoft Visual Studio](https://visualstudio.microsoft.com/) - Used as IDE instead of [monodevelop](https://www.monodevelop.com/) with all respect :D
 ## Versioning
