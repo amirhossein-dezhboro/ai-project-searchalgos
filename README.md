@@ -174,7 +174,7 @@ void ExpandFrontierAStar(Node node)
 I use [Git](https://git-scm.com/downloads) for versioning. For the versions available, see the [tags on this repository](https://github.com/ai-project-searchalgos/ai-project-searchalgos/tags). 
 ## Authors
 
-* **Amir Hossein Dezhbro** - *Initial work* - [tan-ParallelUniverse](https://github.com/tan-ParallelUniverse)
+* **Amir Hossein Dezhbro** - *Initial work* - [tan-ParallelUniverse](https://github.com/tan-ParallelUniverse/graphs/contributors)
 
 See also the list of [contributors](https://github.com/tan-ParallelUniverse/ai-project-searchalgos) who participated in this project.
 ## License
