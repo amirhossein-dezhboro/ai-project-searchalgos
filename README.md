@@ -177,7 +177,7 @@ We use [Git](https://git-scm.com/downloads) for versioning. For the versions ava
 
 See also the list of [contributors](https://github.com/tan-ParallelUniverse/ai-project-searchalgos) who participated in this project.
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/tan-ParallelUniverse/LICENSE.md) file for details
 ## Acknowledgments
 * the credit of this project (if there is any credit :D) goes to the ai class under supervision of prof.ghazanfari and dr.ghiasi.
 * the executable application for windows, linux, macintosh, android and ios will be ready soon and will be shared here.
