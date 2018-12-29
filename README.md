@@ -165,7 +165,7 @@ void ExpandFrontierAStar(Node node)
 
 ## Built With
 
-* [Unity game engine](https://unity3d.com/get-unity/download) - The game engine
+* [Unity game engine](https://unity3d.com/get-unity/download) - The game engine VERSION 2018 1.6F1.1
 * [photoshop](https://www.adobe.com/se/products/photoshop.html?gclid=EAIaIQobChMImM-miafD3wIVFKaaCh3r9gboEAAYASAAEgJEwvD_BwE&sdid=8JD95K3M&mv=search&ef_id=EAIaIQobChMImM-miafD3wIVFKaaCh3r9gboEAAYASAAEgJEwvD_BwE:G:s&s_kwcid=AL!3085!3!281083711561!e!!g!!adobe%20photoshop) - Map Generation
 * [Microsoft Visual Studio](https://visualstudio.microsoft.com/) - Used as IDE instead of [monodevelop](https://www.monodevelop.com/) with all respect :D
 ## Versioning
@@ -177,7 +177,7 @@ We use [Git](https://git-scm.com/downloads) for versioning. For the versions ava
 
 See also the list of [contributors](https://github.com/tan-ParallelUniverse/ai-project-searchalgos) who participated in this project.
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/tan-ParallelUniverse/LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/tan-ParallelUniverse/LICENSE) file for details
 ## Acknowledgments
 * the credit of this project (if there is any credit :D) goes to the ai class under supervision of prof.ghazanfari and dr.ghiasi.
 * the executable application for windows, linux, macintosh, android and ios will be ready soon and will be shared here.
