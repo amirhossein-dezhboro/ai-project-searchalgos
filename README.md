@@ -180,7 +180,6 @@ See also the list of [contributors](https://github.com/tan-ParallelUniverse/ai-p
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/tan-ParallelUniverse/LICENSE) file for details
 ## Acknowledgments
-* the credit of this project (if there is any credit :D) goes to the ai class under supervision of prof.ghazanfari and dr.ghiasi.
 * the executable application for windows, linux, macintosh, android and ios will be ready soon and will be shared here.
 #### * feel free to contact for contribution or fork the project, im open to new ideas and contributions. more algorithms need to be added and I have not enough time to add them but since the whole code is object oriented you can add more algorithms and make the application more perceiving on algorithms.
 
